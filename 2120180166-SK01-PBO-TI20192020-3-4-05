@@ -1,0 +1,19 @@
+
+package luthfi5;
+public class Luthfi5 {
+    public static void main(String[] args) {
+        for (int l=1; l<=7; l++){
+            for (int t=1; t<=l; t++){
+            System.out.print(" ");
+        }
+        for (int u=7; u>=l; u--){
+            System.out.print("5");
+        }
+        for (int h=5; h>=l-1; h--){
+            System.out.print("5");
+        }
+        System.out.println();
+    }
+    }
+    
+}

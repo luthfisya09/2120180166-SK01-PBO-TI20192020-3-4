@@ -1,0 +1,32 @@
+
+package luthfi6;
+public class Luthfi6 {
+    public static void main(String[] args) {
+        for (int s=1; s<=5; s++){
+            for (int y=5;y>=s;y--){
+                System.out.print(" ");
+            }
+            for (int a=1; a<=s;a++){
+                System.out.print("6");
+            }
+            for (int d=1; d<=s-1;d++){
+                System.out.print("6");
+            }
+            System.out.println();
+        }
+        
+            for (int u=1; u<=6;u++){
+        for (int l=1; l<=u-1;l++){
+            System.out.print(" ");
+        }
+        for (int o=6; o>=u;o--){
+            System.out.print("6");
+        }
+        for (int h=5; h>=u;h--){
+            System.out.print("6");
+        }
+        System.out.println("");
+}
+    }
+
+}

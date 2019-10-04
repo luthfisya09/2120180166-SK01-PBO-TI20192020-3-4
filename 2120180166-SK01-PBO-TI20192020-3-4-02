@@ -1,0 +1,18 @@
+
+package luthfi2;
+
+public class Luthfi2 {
+
+    public static void main(String[] args) {
+        for (int l=0; l<=7; l++){
+            for (int u=7; u>l; u--){
+                System.out.print(" ");
+            }
+            for (int i=1; i<=l; i++){
+                System.out.print("2");
+            }
+            System.out.println();
+        }
+        
+    }
+}

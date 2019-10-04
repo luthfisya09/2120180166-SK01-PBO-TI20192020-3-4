@@ -1,0 +1,15 @@
+
+package luthfi3;
+
+public class Luthfi3 {
+
+    public static void main(String[] args) {
+        for (int l=0; l<=9; l++){
+            for (int u=9; u>l; u--){
+                System.out.print("3");
+            }
+            System.out.println();
+        }
+    }
+    
+}

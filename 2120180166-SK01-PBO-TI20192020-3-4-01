@@ -1,0 +1,17 @@
+
+package luthfi;
+
+
+public class Luthfi {
+
+
+    public static void main(String[] args) {
+        for (int a=0; a<=5; a++) {
+            for (int c=0; c<=a; c++) {
+                System.out.print("1");
+            }
+            System.out.println();
+        }
+    }
+    
+}

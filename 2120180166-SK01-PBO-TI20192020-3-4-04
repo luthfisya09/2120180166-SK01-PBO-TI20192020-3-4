@@ -1,0 +1,18 @@
+
+package luthfi4;
+public class Luthfi4 {
+    public static void main(String[] args) {
+        for (int l=1; l<=7; l++){
+            for (int t=6; t>=l; t--){
+            System.out.print(" ");
+        }
+        for (int u=1; u<=l; u++){
+            System.out.print("4");
+        }
+        for (int h=1; h<=l-1; h++){
+            System.out.print("4");
+        }
+        System.out.println();
+    }
+    } 
+}
